@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MauSuji", "MauSuji\MauSuji.vcproj", "{0CDE1EB2-8D21-4305-A9F2-C9070181FB3F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{67102604-FC11-46F3-8864-F3F70F9A4EE8} = {67102604-FC11-46F3-8864-F3F70F9A4EE8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MauHook", "MauHook\MauHook.vcproj", "{67102604-FC11-46F3-8864-F3F70F9A4EE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CDE1EB2-8D21-4305-A9F2-C9070181FB3F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0CDE1EB2-8D21-4305-A9F2-C9070181FB3F}.Debug|Win32.Build.0 = Debug|Win32
+		{0CDE1EB2-8D21-4305-A9F2-C9070181FB3F}.Release|Win32.ActiveCfg = Release|Win32
+		{0CDE1EB2-8D21-4305-A9F2-C9070181FB3F}.Release|Win32.Build.0 = Release|Win32
+		{67102604-FC11-46F3-8864-F3F70F9A4EE8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{67102604-FC11-46F3-8864-F3F70F9A4EE8}.Debug|Win32.Build.0 = Debug|Win32
+		{67102604-FC11-46F3-8864-F3F70F9A4EE8}.Release|Win32.ActiveCfg = Release|Win32
+		{67102604-FC11-46F3-8864-F3F70F9A4EE8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

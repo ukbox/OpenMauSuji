@@ -1,0 +1,26 @@
+LIBRARY MauHook
+
+EXPORTS
+	SetMouseHook
+	MouseUnHook
+	SetButtonSearchHook
+	ButtonSearchUnHook
+	SetSendKeyComboHook
+	SetSendKeyComboUnHook
+	SetButtonFlag
+	SetHookFlag
+	ResetButtonFlag
+	SetCursorNumber
+	SetCursorHandle
+	SetTarget
+	GetWindowFocus
+	GetTargetHandle
+	SetWheelRedirectFlag
+	GetRootWindow
+	SetMouseScroll
+	SearchScrollBar
+	SetWheelActiveFlag
+	SetKuruKuruFlag
+
+SECTIONS
+	.mshared READ WRITE SHARED

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+  <Targets>
+    <Target Number="1" Succession="0" HookType="1" WheelRedirect="0" FreeScroll="0" FileName="ウェブブラウザ共通">
+      <Action Gesture="3" Gesture_0="11" Gesture_1="12" Comment="更新">
+        <Command Case="10" CommandTarget="0" Wait="0" Key="116"></Command>
+      </Action>
+      <Action Gesture="3" Gesture_0="12" Gesture_1="14" Comment="閉じる">
+        <Command Case="10" CommandTarget="0" Wait="0" Key="627"></Command>
+      </Action>
+      <Action Gesture="3" Gesture_0="13" Comment="戻る">
+        <Command Case="10" CommandTarget="0" Wait="0" Key="1061"></Command>
+      </Action>
+      <Action Gesture="3" Gesture_0="14" Comment="進む">
+        <Command Case="10" CommandTarget="0" Wait="0" Key="1063"></Command>
+      </Action>
+      <Action Gesture="3" Gesture_0="21" Comment="前のタブ">
+        <Command Case="10" CommandTarget="0" Wait="0" Key="777"></Command>
+      </Action>
+      <Action Gesture="3" Gesture_0="22" Comment="次のタブ">
+        <Command Case="10" CommandTarget="0" Wait="0" Key="521"></Command>
+      </Action>
+    </Target>
+    <Target Number="2" Succession="1" HookType="1" WheelRedirect="0" FreeScroll="0" FileName="iexplore.exe"></Target>
+    <Target Number="3" Succession="1" HookType="1" WheelRedirect="0" FreeScroll="0" FileName="firefox.exe"></Target>
+    <Target Number="4" Succession="1" HookType="1" WheelRedirect="0" FreeScroll="0" FileName="chrome.exe"></Target>
+    <Target Number="5" Succession="1" HookType="1" WheelRedirect="0" FreeScroll="0" FileName="opera.exe"></Target>
+    <Target ClassName="Default"></Target>
+  </Targets>
+</Config>
